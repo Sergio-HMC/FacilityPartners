@@ -1,35 +1,21 @@
-# Facility Partners — Web V1
+# Facility Partners Web V1.2
 
-Proyecto listo para GitHub + Vercel.
+## VIDEO DEL BANNER
+Antes de subir a GitHub, copia tu video de Google Flow dentro de:
 
-## Agregar el video de Flow
-Pon tu MP4 en:
-`public/video/facility-partners-hero.mp4`
+`public/video/`
 
-## Probar en Mac
-```bash
-npm install
-npm run dev
-```
-Abre http://localhost:3000
+y renómbralo EXACTAMENTE:
 
-## GitHub
-Crea un repositorio vacío, abre Terminal dentro de esta carpeta y ejecuta:
-```bash
-git init
-git add .
-git commit -m "Facility Partners V1"
-git branch -M main
-git remote add origin TU_URL_GITHUB
-git push -u origin main
-```
+`facility-partners-hero.mp4`
 
-## Vercel
-1. Add New > Project
-2. Importa el repositorio.
-3. Vercel detectará Next.js.
-4. Deploy.
+El banner ya está programado para reproducirlo automáticamente, en loop, sin sonido y ocupando todo el hero.
 
-## Antes de publicar
-El CTA usa temporalmente `contacto@facilitypartners.cl`.
-Cámbialo en `app/page.js` si utilizarás otro correo.
+Si el vídeo no está, se verá la imagen poster de respaldo.
+
+## Subir a GitHub
+Sube el CONTENIDO de esta carpeta a la raíz del repositorio (app, public, package.json, README.md).
+Vercel desplegará automáticamente el cambio.
+
+## Nota imágenes
+Las fotografías de esta versión se cargan desde URLs externas para mantener el ZIP ligero. Si quieres, en una siguiente versión podemos sustituirlas por imágenes propias/locales definitivas.
